@@ -1,5 +1,5 @@
 ,match_time_bm,away_player,home_player,odds_away_bm,odds_home_bm,spread_away_bm,spread_home_bm,away_decimal_odds_bm,home_decimal_odds_bm,match_time_bto,odds_away_bto,odds_home_bto,spread_away_bto,spread_home_bto,away_decimal_odds_bto,home_decimal_odds_bto,away_decimal_odds_pin,home_decimal_odds_pin,best_book_away,best_away,best_book_home,best_home,cum_prob,cum_prob_spread,best_spread_away,best_spread_home,best_book_away_spread,best_book_home_spread,log_time,tournament_flg
-545218,05/2318:35,yes,no,300.0,-500.0,N/A,N/A,4.0,1.2,,,,,,,,,,BM,4.0,BM,1.2,1.0833333333333335,,,,,,2021-05-22 19:52:27.574866,round
-545219,05/2318:35,no,yes,-500.0,300.0,N/A,N/A,1.2,4.0,,,,,,,,,,BM,1.2,BM,4.0,1.0833333333333335,,,,,,2021-05-22 19:52:27.574866,round
-545220,,phil mickelson,louis oosthuizen,,,,,,,,,,,,,,2.6,1.5524861878453038,PIN,2.6,PIN,1.5524861878453038,1.0287434984943882,,,,,,2021-05-22 19:52:27.574866,round
-545221,,louis oosthuizen,phil mickelson,,,,,,,,,,,,,,1.5524861878453038,2.6,PIN,1.5524861878453038,PIN,2.6,1.0287434984943882,,,,,,2021-05-22 19:52:27.574866,round
+545222,05/2318:35,yes,no,300.0,-500.0,N/A,N/A,4.0,1.2,,,,,,,,,,BM,4.0,BM,1.2,1.0833333333333335,,,,,,2021-05-22 19:59:30.115242,round
+545223,05/2318:35,no,yes,-500.0,300.0,N/A,N/A,1.2,4.0,,,,,,,,,,BM,1.2,BM,4.0,1.0833333333333335,,,,,,2021-05-22 19:59:30.115242,round
+545224,,phil mickelson,louis oosthuizen,,,,,,,,,,,,,,2.6,1.5524861878453038,PIN,2.6,PIN,1.5524861878453038,1.0287434984943882,,,,,,2021-05-22 19:59:30.115242,round
+545225,,louis oosthuizen,phil mickelson,,,,,,,,,,,,,,1.5524861878453038,2.6,PIN,1.5524861878453038,PIN,2.6,1.0287434984943882,,,,,,2021-05-22 19:59:30.115242,round
