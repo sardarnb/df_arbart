@@ -1,9 +1,9 @@
 ,match_time_bm,away_player,home_player,odds_away_bm,odds_home_bm,spread_away_bm,spread_home_bm,away_decimal_odds_bm,home_decimal_odds_bm,match_time_bto,odds_away_bto,odds_home_bto,spread_away_bto,spread_home_bto,away_decimal_odds_bto,home_decimal_odds_bto,away_decimal_odds_pin,home_decimal_odds_pin,best_book_away,best_away,best_book_home,best_home,cum_prob,cum_prob_spread,best_spread_away,best_spread_home,best_book_away_spread,best_book_home_spread,log_time,tournament_flg
-716298,,ally ewing,sophia popov,,,,,,,2021-05-30T20:30:01Z,-125.0,-105.0,,,1.8,1.9523809523809523,,,BTO,1.8,BTO,1.9523809523809523,1.067750677506775,,,,,,2021-05-30 20:29:57.661309,LPGA
-716299,,phil mickelson/tom brady,bryson dechambeau/aaron rodgers,,,,,,,2021-07-06T21:00:01Z,133.0,-170.0,,,2.33,1.5882352941176472,,,BTO,2.33,BTO,1.5882352941176472,1.0588141789858527,,,,,,2021-05-30 20:29:57.661309,Exhibition Matches
-716300,,sophia popov,ally ewing,,,,,,,2021-05-30T20:30:01Z,-105.0,-125.0,,,1.9523809523809523,1.8,,,BTO,1.9523809523809523,BTO,1.8,1.067750677506775,,,,,,2021-05-30 20:29:57.661309,LPGA
-716301,,bryson dechambeau/aaron rodgers,phil mickelson/tom brady,,,,,,,2021-07-06T21:00:01Z,-170.0,133.0,,,1.5882352941176472,2.33,,,BTO,1.5882352941176472,BTO,2.33,1.0588141789858527,,,,,,2021-05-30 20:29:57.661309,Exhibition Matches
-716302,,the field,jordan spieth,,,,,,,,,,,,,,,,,,,,,,,,,,2021-05-30 20:29:57.661309,tournament
-716303,,the field,jason kokrak,,,,,,,,,,,,,,1.7246376811594204,2.04,PIN,1.7246376811594204,PIN,2.04,1.0700280112044818,,,,,,2021-05-30 20:29:57.661309,tournament
-716304,,jordan spieth,the field,,,,,,,,,,,,,,,,,,,,,,,,,,2021-05-30 20:29:57.661309,tournament
-716305,,jason kokrak,the field,,,,,,,,,,,,,,2.04,1.7246376811594204,PIN,2.04,PIN,1.7246376811594204,1.0700280112044818,,,,,,2021-05-30 20:29:57.661309,tournament
+716306,,ally ewing,sophia popov,,,,,,,2021-05-30T20:45:01Z,-125.0,-105.0,,,1.8,1.9523809523809523,,,BTO,1.8,BTO,1.9523809523809523,1.067750677506775,,,,,,2021-05-30 20:41:16.340746,LPGA
+716307,,phil mickelson/tom brady,bryson dechambeau/aaron rodgers,,,,,,,2021-07-06T21:00:01Z,133.0,-170.0,,,2.33,1.5882352941176472,,,BTO,2.33,BTO,1.5882352941176472,1.0588141789858527,,,,,,2021-05-30 20:41:16.340746,Exhibition Matches
+716308,,sophia popov,ally ewing,,,,,,,2021-05-30T20:45:01Z,-105.0,-125.0,,,1.9523809523809523,1.8,,,BTO,1.9523809523809523,BTO,1.8,1.067750677506775,,,,,,2021-05-30 20:41:16.340746,LPGA
+716309,,bryson dechambeau/aaron rodgers,phil mickelson/tom brady,,,,,,,2021-07-06T21:00:01Z,-170.0,133.0,,,1.5882352941176472,2.33,,,BTO,1.5882352941176472,BTO,2.33,1.0588141789858527,,,,,,2021-05-30 20:41:16.340746,Exhibition Matches
+716310,,the field,jason kokrak,,,,,,,,,,,,,,,,,,,,,,,,,,2021-05-30 20:41:16.340746,tournament
+716311,,the field,jordan spieth,,,,,,,,,,,,,,,,,,,,,,,,,,2021-05-30 20:41:16.340746,tournament
+716312,,jason kokrak,the field,,,,,,,,,,,,,,,,,,,,,,,,,,2021-05-30 20:41:16.340746,tournament
+716313,,jordan spieth,the field,,,,,,,,,,,,,,,,,,,,,,,,,,2021-05-30 20:41:16.340746,tournament
