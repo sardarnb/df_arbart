@@ -7,7 +7,10 @@ import dash_html_components as html
 import dash_table as dt
 from dash.dependencies import Input, Output, State
 
+from pymongo import MongoClient
 
+#import json
+mongo_con_str = 'mongodb+srv://admin:1kFEJ9LQurPaIhhv@cluster0.cryeu.gcp.mongodb.net/test?authSource=admin&replicaSet=atlas-59dkal-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true&ssl_cert_reqs=CERT_NONE'
 
 
 app = dash.Dash(__name__)
@@ -21,7 +24,7 @@ app.layout = dbc.Container([
     dbc.Spinner(html.Div(id='match_table_show')),
     dcc.Interval(
         id='interval-component',
-        interval= 2 * 60 * 1000,  # in milliseconds
+        interval=60 * 1000 * 5,  # in milliseconds
         n_intervals=0
     )
 ])
@@ -33,11 +36,20 @@ app.layout = dbc.Container([
     Input('interval-component', 'n_intervals'),
      ])
 def show_matches(x, y):
-    df_matchups = pd.read_csv(r'https://raw.githubusercontent.com/sardarnb/df_arbart/main/df_arbart.csv')
+    client = MongoClient(mongo_con_str)
+    mydb = client.bart
+    collection = mydb.golf
+
+    max_datetime = mydb.golf.find().sort("log_time", -1).limit(1)
+    for latest_insert in max_datetime:
+        latest_log_time = latest_insert['log_time']
+    db_recs = mydb.golf.find({'log_time': latest_log_time})
+    df_matchups = pd.DataFrame(list(db_recs))
+    # df_matchups = pd.read_csv(r'https://raw.githubusercontent.com/sardarnb/df_arbart/main/df_arbart.csv')
     df = df_matchups[['match_time_bm','match_time_bto', 'away_player', 'home_player', 'away_decimal_odds_bm', 'home_decimal_odds_bm',
              'away_decimal_odds_bto', 'home_decimal_odds_bto', 'best_away','best_book_away', 'best_home','best_book_home', 'cum_prob',
             'cum_prob_spread','best_spread_away','best_spread_home','best_book_away_spread','best_book_home_spread',
-             'log_time','tournament_flg']]
+             'log_time']]
     df.log_time = pd.to_datetime(df.log_time)
     df = df.drop_duplicates()
     # df.loc[df.log_time == df.log_time.max()]
@@ -63,7 +75,6 @@ def show_matches(x, y):
                  {'name': 'best_book_away_spread', 'id': 'best_book_away_spread'},
                  {'name': 'best_book_home_spread', 'id': 'best_book_home_spread'},
                  {'name': 'log_time', 'id': 'log_time'},
-                 {'name': 'tournament_flg', 'id': 'tournament_flg'}
                  ],
         data=data[0],
         # row_selectable='single',
@@ -95,7 +106,7 @@ def show_matches(x, y):
         filter_action="native",
     )
 
-
+    client.close()
     return m_table
 
 
