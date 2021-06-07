@@ -14,3 +14,4 @@ plotly==4.9.0
 plotly-express==0.4.1
 requests==2.24.0
 Jinja2==2.11.2
+pymongo==3.11.0
