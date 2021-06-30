@@ -106,7 +106,7 @@ def show_matches(x, y):
         # },
         style_cell={
             'whiteSpace': 'normal',
-            'height': 'auto',
+            #'height': 'auto',
         },
         filter_action="native",
     )
