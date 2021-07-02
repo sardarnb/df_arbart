@@ -55,8 +55,8 @@ def show_matches(x, y):
     df.best_away = round(df.best_away, 2)
     df.best_spread_away = round(df.best_spread_away, 2)
     df.best_spread_home = round(df.best_spread_home, 2)
-    df.cum_prob = round(df.cum_prob, 2)
-    df.cum_prob_spread = round(df.cum_prob_spread, 2)
+    df.cum_prob = round(df.cum_prob, 3)
+    df.cum_prob_spread = round(df.cum_prob_spread, 3)
     # df.loc[df.log_time == df.log_time.max()]
     data = df.loc[df.log_time == df.log_time.max()].to_dict('records'),
     m_table = dt.DataTable(
